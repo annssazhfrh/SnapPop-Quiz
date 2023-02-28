@@ -1,0 +1,154 @@
+activity_answer.xml (Answer Page Layout)
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wpb"
+    tools:context=".Answer">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/check_your_answers"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="47dp"
+        android:text="@string/exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView12"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/_1_tunku_abdul_rahman"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/_2_31st_august"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView5"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView3"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView3"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:text="@string/_3_malaya"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView6"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView4"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView4"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="@string/_4_parameswara"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView7"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView5"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView5"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:text="@string/_5_september_16_1963"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView8"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView6"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView6"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:text="@string/_6_perak"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView9"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView7"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView7"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:text="@string/_7_tok_janggut"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView10"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView8"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView8"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:text="@string/_8_446_years"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView11"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView9"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView9"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:text="@string/_9_frank_swettenham"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView12"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView10"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView10"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+        android:text="@string/_10_portuguese"
+        app:layout_constraintBottom_toTopOf="@+id/exit"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView11"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView11"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

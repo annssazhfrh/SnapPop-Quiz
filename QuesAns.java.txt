@@ -1,0 +1,51 @@
+QuesAns.java (Quiz Question Java)
+
+
+
+package com.example.snappop;
+
+public class QuesAns {
+
+    public static String[] question =
+            {
+            "Who is the first Prime Minister in Malaysia?",
+            "When is the Malaysian Independence Day?",
+            "What was the name of Malaysia pre-independence?",
+            "Who is the founder of Sultanate Malacca?",
+            "When was Malaysia founded?",
+            "Which of the following was not part of the Unfederated Malay States (UFMS)?",
+            "Which of the following was not the state fighters/local figures of Pahang?",
+            "How many years was Malaya Peninsula being occupied with foreign powers?",
+            "Who was the first Resident General of the Federated Malay States (FMS)?",
+            "What was the first foreign power that occupy Malay Peninsula?"
+            };
+
+    public static String[][] choices =
+            {
+                    {"Tun Abdul Razak","Tunku Abdul Rahman","Tun Dr Mahathir Mohamad"},
+                    {"31st January","28th August","31st August"},
+                    {"Malaya-Singapura","Malaya","Semenanjung"},
+                    {"Parameswara","Hayam Wuruk","Megat Iskandar Shah"},
+                    {"September 18 1963","September 16 1960","September 16 1963"},
+                    {"Kelantan","Perak","Kedah"},
+                    {"Mat Kilau","Tok Gajah","Tok Janggut"},
+                    {"446 years","510 years","450 years"},
+                    {"Frank Swettenham","J.W.W Birch","Francis Light"},
+                    {"Portuguese","British","Dutch"}
+
+            };
+
+    public static String[] CorrectAnswers =
+            {
+            "Tunku Abdul Rahman",
+            "31st August",
+            "Malaya",
+            "Parameswara",
+            "September 16 1963",
+            "Perak",
+            "Tok Janggut",
+            "446 years",
+            "Frank Swettenham",
+            "Portuguese"
+            };
+}
